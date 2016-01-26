@@ -24,6 +24,7 @@
 }
 
 .ui-wrap-mainbody li{
+	list-style: none;
 	text-decoration: none;
 	width:40%;
 	margin: 3%;
