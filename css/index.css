@@ -9,12 +9,15 @@ html,body{
 	height:100%;
 }
 
+img{
+	width:100%;
+}
+
 #wrap{
 	min-height: 100%;
 }
 
-header{	
-	margin-bottom:10px; 
+header{		
 	background-color:#00bcd4;
 	color:white;
 }
@@ -26,6 +29,7 @@ header h1{
 #page{
 	overflow: hidden;
 	padding-bottom: 70px;
+	background-color: #eeeeee;
 }
 
 #page ul{
@@ -37,12 +41,13 @@ header h1{
 #page li{
 	list-style: none;
 	text-decoration: none;
-	width:40%;
+	width:40%;	
 	margin: 3%;
 	padding:1%;	
 	text-align: center;
 	float:left;
-	border: 1px solid black;
+	border: 1px solid #ddd;
+	background-color: white;
 }
 
 
